@@ -7,7 +7,6 @@ p{
     color: black;
 }
 
-
 /* Menu inicial */
 .navbar{}
 .nav{position: fixed; width: 100%;}
@@ -17,6 +16,12 @@ p{
 .menu{margin-left: 50px;}
 a{margin-left: 15px;}
 .entrar{margin-right: 20px;}
+
+@media screen and (max-width: 800px) {
+    .carousel-item img{
+        height: 300px;
+    }
+  }
 
 /* Sistema de Cards */
 h1{
