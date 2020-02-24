@@ -9,7 +9,8 @@ p{
 
 
 /* Menu inicial */
-nav{position: fixed; width: 100%;}
+.navbar{}
+.nav{position: fixed; width: 100%;}
 .logo{width: 200px;}
 .navbar{padding: 0; }
 .navbar{font-size: 20px;font-weight: 500;}
@@ -38,8 +39,8 @@ h1::after{
 .main_section_card{
    display: flex;
    flex-direction: column;
-   justify-content: center;
    align-items: center;
+   justify-content: space-between;
 }
 
 .main_card{
@@ -71,7 +72,7 @@ h1::after{
 }
 
 .imagem-sobre{
-    width: 700px;
+    width: 50%;
     margin-left: 50px;
     border-radius: 20px;
     margin: 50px;
