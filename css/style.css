@@ -1,0 +1,86 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: black;
+}
+
+
+/* Menu inicial */
+nav{position: fixed; width: 100%;}
+.logo{width: 200px;}
+.navbar{padding: 0; }
+.navbar{font-size: 20px;font-weight: 500;}
+.menu{margin-left: 50px;}
+a{margin-left: 15px;}
+.entrar{margin-right: 20px;}
+
+/* Sistema de Cards */
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2980b9;
+}
+
+h1::after{
+    content: "";
+    width: 250px;
+    height: 5px;
+    background-color: #2c3e50;
+    display: block;
+    margin: 0 auto;
+}
+
+.main_section_card{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.main_card{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 50px;
+    border: 1px solid #2c3e50;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow:2px 10px 10px;
+    transition: all 0.3s;
+    
+}
+.card:hover{
+    width: 200px;
+    background-color: #1abc9c;
+}
+
+/* Sobre */
+
+.sobre{
+   background-color: #95a5a6;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.imagem-sobre{
+    width: 700px;
+    margin-left: 50px;
+    border-radius: 20px;
+    margin: 50px;
+}
+.conteudo_sobre{
+    width: 400px;
+    margin-left: 50px;
+   
+}
+
+
+
