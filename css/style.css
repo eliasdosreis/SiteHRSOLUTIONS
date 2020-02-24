@@ -44,25 +44,6 @@ h1::after{
     margin: 0 auto;
 }
 
-.main_section_card{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: space-between;
-}
-
-.main_card{
-    display: flex;
-    flex-wrap: wrap;
-}
-.card{
-    margin: 50px;
-    border: 2px solid #2c3e50;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow:2px 10px 10px;
-    transition: all 0.3s;  
-}
 /* Sobre */
 
 .sobre{
@@ -94,14 +75,15 @@ h1::after{
 /* Preços */
 
 section.pricing {
-    background-color: #ddd;
+    background: #ddd;
   }
   
-  .pricing .card {
+  .pricing .card_ {
     border: none;
     border-radius: 1rem;
     transition: all 0.2s;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
   }
   
   .pricing hr {
@@ -145,12 +127,12 @@ section.pricing {
   /* Hover Effects on Card */
   
   @media (min-width: 992px) {
-    .pricing .card:hover {
+    .pricing .card_:hover {
       margin-top: -.25rem;
       margin-bottom: .25rem;
       box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
     }
-    .pricing .card:hover .btn {
+    .pricing .card_:hover .btn {
       opacity: 1;
     }
   }
