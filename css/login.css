@@ -6,6 +6,9 @@
   body {
     background: #ddd
   }
+  img{
+      width: 400px;
+  }
   
   .card-signin {
     border: 0;
