@@ -1,7 +1,7 @@
 <?php
-define("HOST","127.0.0.1");
-define("USUARIO","root");
-define('SENHA', '');
-define("DB","login");
+define("HOST","https://phpmyadmin.umbler.com/");
+define("USUARIO","hrsolutions");
+define('SENHA', '123456abc');
+define("DB","login_hr");
 
 $conexao = mysqli_connect(HOST,USUARIO,SENHA,DB) or die("Não foi possivel conectar");
