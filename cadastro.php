@@ -33,7 +33,7 @@ session_start();
 
                 <div class="form-label-group">
                   <input name="email" type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-                  <label for="inputEmail">Usuario</label>
+                  <label for="inputEmail">Email</label>
                 </div>
   
                 <div class="form-label-group">
