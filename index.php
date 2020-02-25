@@ -1,6 +1,8 @@
 <?php
 session_start();
+include("./backEnd/register.php")
 ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -41,7 +43,15 @@ session_start();
             <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Forum</a>
           </div>
           <a class="btn btn-primary entrar ml-5" href="login.php"> <?php if(!empty($_SESSION['usuario'])) { echo $_SESSION['usuario']; } else { echo "ENTRAR"; } ?> </a>
-          <a class="btn btn-primary entrar m-0" href="./backEnd/sair.php"><?php if(!empty($_SESSION['usuario'])) { echo "SAIR"; } else { echo "CADASTRAR"; } ?></a>
+          <!-- <a class="btn btn-primary entrar m-0" href="./backEnd/sair.php"> -->
+          
+          <?php 
+          echo $register;
+           if(!empty($_SESSION['usuario'])) 
+              { echo "SAIR"; } 
+            else
+              { echo "CADASTRAR"; } ?>
+          </a>
         </div>
         
       </nav>
