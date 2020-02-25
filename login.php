@@ -6,6 +6,10 @@
     <title>Catalogador HR</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/login.css">
+   
+    <link rel="stylesheet" href="css_login/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="css_login/login.css">
+
 </head>
 <body>
 <body>
@@ -16,14 +20,15 @@
             <div class="card-body">
                 <img src="./img/logo.jpg" alt="">
               <h5 class="card-title text-center">Logar</h5>
-              <form class="form-signin">
+              <form action="./backEnd/singIn.php" class="form-signin" method="POST">
+             
                 <div class="form-label-group">
-                  <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-                  <label for="inputEmail">Email</label>
+                  <input name="usuario" type="text" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                  <label for="inputEmail">Usuario</label>
                 </div>
   
                 <div class="form-label-group">
-                  <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                  <input name="senha" type="password" id="inputPassword" class="form-control" placeholder="Password" required>
                   <label for="inputPassword">Senha</label>
                 </div>
   

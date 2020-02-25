@@ -8,11 +8,11 @@ p{
 }
 
 /* Menu inicial */
-.navbar{}
+
 .nav{position: fixed; width: 100%;}
 .logo{width: 200px;}
-.navbar{padding: 0; position: fixed; z-index: 1; width: 100%;}
-.navbar{font-size: 20px;font-weight: 500;}
+.navbar{padding: 0; width: 100%; z-index: 1;}
+.navbar{font-size: 20px;font-weight: 500; z-index: 1;}
 .menu{margin-left: 50px;}
 a{margin-left: 15px;}
 .entrar{margin-right: 20px;}
