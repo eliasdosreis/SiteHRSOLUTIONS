@@ -1,5 +1,5 @@
 <?php
-define("HOST","https://phpmyadmin.umbler.com/");
+define("HOST","mysql873.umbler.com");
 define("USUARIO","hrsolutions");
 define('SENHA', '123456abc');
 define("DB","login_hr");
