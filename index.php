@@ -42,7 +42,15 @@ include("./backEnd/register.php")
             <a class="nav-item nav-link" href="#video">Videos</a>
             <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Forum</a>
           </div>
-          <a class="btn btn-primary entrar ml-5" href="login.php"> <?php if(!empty($_SESSION['usuario'])) { echo $_SESSION['usuario']; } else { echo "ENTRAR"; } ?> </a>
+          
+            <?php 
+            echo $logar;
+            if(!empty($_SESSION['usuario']))
+             { echo $_SESSION['usuario']; } 
+             else
+              { echo "ENTRAR"; }
+               ?>
+           </a>
           <!-- <a class="btn btn-primary entrar m-0" href="./backEnd/sair.php"> -->
           
           <?php 
