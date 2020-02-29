@@ -274,22 +274,22 @@ include("./backEnd/register.php")
             </span>
     
             <div class="wrap-input1 validate-input" data-validate = "Name is required">
-              <input class="input1" type="text" name="name" placeholder="Nome">
+              <input class="input1" type="text" name="name" id="name" placeholder="Nome">
               <span class="shadow-input1"></span>
             </div>
     
             <div class="wrap-input1 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-              <input class="input1" type="text" name="email" placeholder="Email">
+              <input class="input1" type="text" name="email" id="email" placeholder="Email">
               <span class="shadow-input1"></span>
             </div>
     
             <div class="wrap-input1 validate-input" data-validate = "Subject is required">
-              <input class="input1" type="text" name="subject" placeholder="Titulo">
+              <input class="input1" type="text" name="subject" id="subject" placeholder="Titulo">
               <span class="shadow-input1"></span>
             </div>
     
             <div class="wrap-input1 validate-input" data-validate = "Message is required">
-              <textarea class="input1" name="message" placeholder="Menssagem"></textarea>
+              <textarea class="input1" name="message" id="name" placeholder="Menssagem"></textarea>
               <span class="shadow-input1"></span>
             </div>
     
