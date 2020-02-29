@@ -289,7 +289,7 @@ include("./backEnd/register.php")
             </div>
     
             <div class="wrap-input1 validate-input" data-validate = "Message is required">
-              <textarea class="input1" name="message" id="name" placeholder="Menssagem"></textarea>
+              <textarea class="input1" name="message" id="message" placeholder="Menssagem"></textarea>
               <span class="shadow-input1"></span>
             </div>
     
