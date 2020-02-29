@@ -268,7 +268,7 @@ include("./backEnd/register.php")
             <img src="images/img-01.png" alt="IMG">
           </div>
     
-          <form class="contact1-form validate-form" action="./backEnd/enviar-email.php" method="post">
+          <form class="contact1-form validate-form" action="./enviar-email.php" method="post">
             <span class="contact1-form-title">
               Entre em contato
             </span>
