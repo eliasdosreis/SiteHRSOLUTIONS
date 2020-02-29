@@ -11,7 +11,7 @@ $headers .= "From: $email\r\n";
 $headers .= "Reply-To: $email\r\n";
 
 // Dados que serão enviados
-$corpo = "Formulário da página de contato <br>";
+$corpo = "Formulário da página de contato   --- {$name} <br>";
 $corpo .= "Nome: {$name} <br>";
 $corpo .= "Telefone: {$titulo}  <br>";
 $corpo .= "Email: {$email} <br>";
