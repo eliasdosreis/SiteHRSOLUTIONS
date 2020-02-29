@@ -6,9 +6,9 @@ $titulo = $_POST['subject'];
 $message = $_POST['message'];
 $subject = "Mensagem do Site";
 
-$headers = "Content-Type: text/html; charset=utf-8\r\n";
-$headers .= "From: $email\r\n";
-$headers .= "Reply-To: $email\r\n";
+$headers = array("From: " . $email,
+"Reply-To: " . $email,
+"X-Mailer: PHP/" . PHP_VERSION);
 
 // Dados que serão enviados
 $corpo = "Formulário da página de contato   --- {$name} <br>";
