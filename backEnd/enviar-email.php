@@ -2,8 +2,8 @@
 // Recebendo dados do formulário
 $name = $_POST['name'];
 $email = $_POST['email'];
-$phone = $_POST['telefone'];
-$message = $_POST['mensagem'];
+$titulo = $_POST['subject'];
+$message = $_POST['message'];
 $subject = "Mensagem do Site";
 
 $headers = "Content-Type: text/html; charset=utf-8\r\n";
@@ -13,7 +13,7 @@ $headers .= "Reply-To: $email\r\n";
 // Dados que serão enviados
 $corpo = "Formulário da página de contato <br>";
 $corpo .= "Nome: " . $name . " <br>";
-$corpo .= "Telefone: " . $phone . " <br>";
+$corpo .= "Telefone: " . $titulo . " <br>";
 $corpo .= "Email: " . $email . " <br>";
 $corpo .= "Mensagem: " . $message . " <br>";
 
@@ -23,11 +23,3 @@ $email_to = 'helioreis@hrsolutions.com';
 // Enviando email
 $status = mail($email_to, mb_encode_mimeheader($subject, "utf-8"), $corpo, $headers);
 
-if ($status):
-  // Enviada com sucesso
-  header('location:index.php?status=sucesso');
-else:
-  // Se der erro
-  header('location:index.php?status=erro');
-endif;
-?>
