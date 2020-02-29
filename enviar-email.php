@@ -11,7 +11,7 @@ $headers = array("From: " . $email,
 "X-Mailer: PHP/" . PHP_VERSION);
 
 // Dados que serão enviados
-$corpo = "Formulário da página de contato   --- {$name} <br>";
+$corpo = "Formulário da página de contato --- {$name} <br>";
 $corpo .= "Nome: {$name} <br>";
 $corpo .= "Telefone: {$titulo}  <br>";
 $corpo .= "Email: {$email} <br>";
