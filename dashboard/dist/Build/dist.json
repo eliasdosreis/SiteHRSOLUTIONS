@@ -1,9 +1,9 @@
 {
 "companyName": "DefaultCompany",
 "productName": "Dashboard",
-"dataUrl": "dashboard.data.unityweb",
-"wasmCodeUrl": "dashboard.wasm.code.unityweb",
-"wasmFrameworkUrl": "dashboard.wasm.framework.unityweb",
+"dataUrl": "dist.data.unityweb",
+"wasmCodeUrl": "dist.wasm.code.unityweb",
+"wasmFrameworkUrl": "dist.wasm.framework.unityweb",
 "TOTAL_MEMORY": 268435456,
 "graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
