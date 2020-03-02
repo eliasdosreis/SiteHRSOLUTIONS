@@ -15,7 +15,7 @@
   
   <body>
     <div class="webgl-content " style="position:absolute;">
-      <div id="gameContainer" style="width: 1024px; height: 768px, margin:0;"></div>
+    <div id="gameContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
         <!-- <div class="webgl-logo"></div> -->
         <!-- <div class="fullscreen" onclick="gameInstance.SetFullscreen(0)"></div> -->
