@@ -18,6 +18,6 @@ if($resultado){
 
 $conexao->close();
 
-header('Location: ./../cadastro.php');
+header('Location: ./../sucess.php');
 // header('Location: ./registerBD.php');
 exit();
