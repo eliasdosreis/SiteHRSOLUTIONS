@@ -145,7 +145,11 @@ include("./backEnd/register.php")
               <li><span class="fa-li"><i class="fas fa-check"></i></span>------</li>
               <li><span class="fa-li"><i class="fas fa-check"></i></span>------</li>
               </ul>
-            <a href="#" class="btn btn-block btn-primary text-uppercase">COMPRAR</a>
+               <a class="btn btn-block btn-primary text-uppercase" mp-mode="dftl" href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=429688327-eda25bd1-8538-4bfa-9bf3-13412e590103" name="MP-payButton" class='blue-ar-l-rn-none'>Comprar</a>
+<script type="text/javascript">
+(function(){function $MPC_load(){window.$MPC_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = document.location.protocol+"//secure.mlstatic.com/mptools/render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPC_loaded = true;})();}window.$MPC_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;})();
+</script>
+
           </div>
         </div>
       </div>
