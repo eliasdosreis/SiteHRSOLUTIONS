@@ -22,7 +22,7 @@ if($row == 1){
     exit();
 }else{
     $_SESSION['nao_autenticado'] = true;
-    header('Location: ./../login.php');
+    header('Location: ./../loginErrado.php');
    
     exit(); 
 }
